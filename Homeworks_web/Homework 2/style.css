@@ -1,0 +1,83 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3baf83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+} 
+.container {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.1);
+}
+.login-text {
+    margin: 5px 0px;
+}
+.introduction {
+    margin: 5px 0px;
+    color: #d3d3d3;
+}
+
+form, .register-link { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    padding: none;
+}
+
+
+.input-group {
+    margin: 10px 0px;
+}
+
+.grey-text {
+    color: #bcbcbc;
+    display: block;
+    font-size: 10px;
+    text-align: left;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 1px;
+}
+
+#email, #password {
+    border: 3px solid  #eeeeee;
+    width: 300px;
+    background-color:  #eeeeee;
+    padding: 3px 10px;
+    box-sizing: border-box; 
+}
+
+.icon {
+    border: none;
+    background-color: #3baf83;
+    padding: 3px 10px;
+}
+
+.login-button {
+    cursor: pointer;
+    background-color: #3baf83;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+}
+.register-link{
+    color: #bcbcbc;
+}
+.register-link a {
+    color: #bcbcbc;
+    
+    text-decoration: none;
+}
