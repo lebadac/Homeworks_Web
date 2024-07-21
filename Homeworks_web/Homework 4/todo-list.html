@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo-list.css">
+    <title>To do list</title>
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <form id="formTask">
+        <input id="inputTask">
+        <button type="submit">Add Task</button>
+        <select name="" id="statusFilter">
+            <option value="pending">Pending</option>
+            <option value="inProcess">In Process</option>
+            <option value="completed">Completed</option>
+        </select>
+        <button id="saveBtn">Save</button>
+    </form>
+    <ul id="tasks">
+        <!-- <li class="completed">Task 1 <button>Remove</button></li>
+        <li>Task 2 <button>Remove</button></li>
+        <li>Task 3 <button>Remove</button></li>
+        <li>Task 4 <button>Remove</button></li> -->
+    </ul>
+    <script src="todo-list.js"></script>
+</body>
+</html>
