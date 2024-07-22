@@ -9,13 +9,14 @@
 <body>
     <h1>ToDo List</h1>
     <form id="formTask">
-        <input id="inputTask">
-        <button type="submit">Add Task</button>
-        <select name="" id="statusFilter">
-            <option value="pending">Pending</option>
-            <option value="inProcess">In Process</option>
-            <option value="completed">Completed</option>
+        <input id="inputTask" placeholder="Add new task">
+        <select id="statusTask">
+            <option value="Pending">Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
         </select>
+        <input id="inputCategory" placeholder="Add new category">
+        <button type="submit">Add Task</button>
         <button id="saveBtn">Save</button>
     </form>
     <ul id="tasks">
