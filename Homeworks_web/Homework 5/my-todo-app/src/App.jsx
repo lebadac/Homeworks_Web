@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState } from 'react';
 import Card from './components/Card';
 import Modal from './components/Modal';
