@@ -1,11 +1,18 @@
 # Homeworks_Web
-Homework 2 (Done) <br>
-Homework 3 (Done) <br>
-Homework 4 (Done) (UI not done) <br>
-Homework 5 (Done) <br>
-Final Project (Done)
 
-Thanks with love <br>
+## Completed Homeworks
+- **Homework 2**: Done
+- **Homework 3**: Done
+- **Homework 4**: Done (UI not done)
+- **Homework 5**: Done
+- **Final Project**: Done
+
+---
+
+Thanks with love
+
+---
+
 
               __,,,__
                 ,-""-,-"       "-,-""-,
